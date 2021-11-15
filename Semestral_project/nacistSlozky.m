@@ -17,7 +17,7 @@ for i = 1:n
     ylim([0,3])
    
     set(gcf,'Position',[100 100 440 100])
-    nazev = sprintf('zaznam_c%03d',i);
+    nazev = sprintf('zaznam_c%03d.png',i);
     saveas(gcf,fullfile('./DATA_FOTO',vzorek,nazev));
 end
 
